@@ -13,7 +13,6 @@
 /public/
 /system/*
 !/system/config/
-/system/config/localconfig.php
 /system/config/tcpdf.php
 /templates/
 /var/
