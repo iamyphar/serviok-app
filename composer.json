@@ -12,11 +12,11 @@
         "contao/manager-bundle": "4.13.*",
         "contao/news-bundle": "^4.13",
         "contao/newsletter-bundle": "^4.13",
-        "isotope/isotope-core": "*",
-        "phpoffice/phpspreadsheet": "*",
-        "contao/tcpdf-bundle": "*",
-        "terminal42/contao-autoregistration": "*",
-        "terminal42/contao-mailusername": "*"
+        "isotope/isotope-core": "^2.8",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "contao/tcpdf-bundle": "^1.2",
+        "terminal42/contao-autoregistration": "^3.0",
+        "terminal42/contao-mailusername": "^2.1"
     },
     "conflict": {
         "contao-components/installer": "<1.3"
