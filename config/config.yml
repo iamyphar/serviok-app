@@ -1,0 +1,11 @@
+doctrine:
+    dbal:
+        connections:
+            default:
+                options:
+                    1002: "SET SESSION sql_mode=(SELECT CONCAT(@@sql_mode, ',TRADITIONAL'))"
+
+contao:
+    legacy_routing: false
+    image:
+        imagine_service: 'contao.image.imagine.gd' # Imagick doesn't support webp on Infomaniak hosts - force using GD who supports all formats
