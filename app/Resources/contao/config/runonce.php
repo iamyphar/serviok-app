@@ -19,5 +19,4 @@ $runonce = function(array $files, $delete = false) {
 
 $runonce(array (
   0 => '/Users/raphael.doutaz/Sites/serviok-app/vendor/codefog/contao-haste/config/upgrade.php',
-  1 => '/Users/raphael.doutaz/Sites/serviok-app/vendor/isotope/isotope-core/system/modules/isotope/config/upgrade.php',
 ));
