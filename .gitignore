@@ -10,7 +10,8 @@
 # Generated folders
 /assets/
 /files/
-/public/
+/public/*
+!/public/.htaccess
 /system/*
 !/system/config/
 /system/config/tcpdf.php
